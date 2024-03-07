@@ -285,8 +285,8 @@ fileWrite7("data.txt", "Node.js course Changed");
 fileWrite7("finalFile.txt", "Casot za denes e zavrsen");
 
 // Promise reponses can be:
-// 1. succesfull (positive)
-// 2. failed (negative)
+// 1. fulfilled (positive)
+// 2. rejected (negative)
 // 3. pending (in progress)
 
 // ES7
