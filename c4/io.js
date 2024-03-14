@@ -14,6 +14,8 @@ const read = async() => {
         fs.readFile("data.json", "utf-8", (err, data) => {
             if(err){
                 return reject(err);
+            }else if(!data){
+                return resolve([]);
             }else{
                 data = JSON.parse(data); //ni treba za parsiranje (konverzija) na json podatocite
                 return resolve(data);
